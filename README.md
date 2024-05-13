@@ -6,5 +6,3 @@
 [Assignment 3](Assignments/Assignment_3)
 [Assignment 4](Assignments/Assignment_4)
 [Assignment 5](Assignments/Assignment_5)
-
-[Test link](https://durhamcollege.desire2learn.com/d2l/home)
