@@ -5,12 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to HTML</title>
 </head>
-<body>
-    <h1>Intro to HTML</h1>
-    <p>
-        This is our intro to html file. Here 
-        we will learn all about HTMl lists, 
-        paragraphs, images, audio/video, tables, and comments
-    </p>
-</body>
+    <body>
+        <h1>Intro to HTML</h1>
+        <h2>I am an H2 header</h2>
+        <h3>I am an H3 header</h3>
+        <h6>I am an H6 header</h6>
+        <p>
+            This is our intro to html file. Here 
+            we will learn all about HTMl lists, 
+            paragraphs, images, audio/video, tables, and comments
+        </p>
+        <h1>Homework:</h1>
+        <!-- An ordered list will add a number to each list item-->
+        <ol>
+            <li>Finish Web Development Assignment</li>
+            <li>Write Open Source Code</li>
+        </ol>
+        <!-- An Unordered list will add points to each list item-->
+        <ul>
+            <li>Finish Web Development Assignment</li>
+            <li>Read About Databases</li>
+            <li>Write Open Source Code</li>
+        </ul>
+        <!--Let's add an image below-->
+        <h3>This image is referenced using the source url</h3>
+        <img 
+            src="https://static.wikia.nocookie.net/1004fe6a-c82e-4255-8dc3-87a4d8fd2fcf/scale-to-width/755"
+            height="auto"
+            width="500"
+            alt="Picture of honkai_star_rail_acheron_drip_banner"
+        />
+        <h3>This image is referenced using relative path</h3>
+        <img 
+            src="./honkai_star_rail_acheron_drip_banner.jpg"
+            height="auto"
+            width="500"
+            alt="Picture of honkai_star_rail_acheron_drip_banner"
+        />
+        <h3>This embedded video using YouTube copy method</h3>
+        <iframe 
+            width="500"
+            height="300"
+            src="https://www.youtube.com/embed/_6VXoxKkTWQ"
+            title="Welcome to Durham College"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <h3>These are like containers for meaningful text (semantics)</h3>
+        <!--Block elements (Entire row)-->
+        <div>This is a div</div>
+        <!--Inline elements (Takes up what it needs in a row)-->
+        <span>This is a spam</span>
+        <span>Another span</span>
+        <section>This is a section</section>
+        <header>This is a header</header>
+        <footer>This is a footer</footer>
+    </body>
 </html>
