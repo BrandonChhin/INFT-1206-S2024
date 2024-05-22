@@ -2,6 +2,7 @@
 
 [HTML Intro](/Class_Notes/HTML/HTML_Intro/index.html)
 [HTML Blog](/Class_Notes/HTML/HTML_Intro/blog.html)
+[HTML Audio & Video](/Class_Notes/HTML/HTML_Video_Audio/index.html)
 [Assignment 1](Assignments/Assignment_1)
 [Assignment 2](Assignments/Assignment_2)
 [Assignment 3](Assignments/Assignment_3)
