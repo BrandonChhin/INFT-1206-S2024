@@ -7,16 +7,29 @@
 </head>
 <body>
     <h1>HTML Embedding Audio And Video Exercise</h1>
+    <!--This how to display audio file in HTML with support for multiple file and codec types-->
     <figure>
         <figcaption>
             This is sample audio, available in .mp3 and .ogg format
         </figcaption>
         <audio controls>
-            <source src="/Class_Notes/HTML/HTML_Video_Audio/html_multimedia-and-embedding_video-and-audio-content_viper.mp3"
+            <source src="/Class_Notes/HTML/HTML_Video_Audio/html_multimedia-
+            and-embedding_video-and-audio-content_viper.mp3"
         type="audio/mp3" />
-            <source src="/Class_Notes/HTML/HTML_Video_Audio/html_multimedia-and-embedding_video-and-audio-content_viper.ogg"
+            <source src="/Class_Notes/HTML/HTML_Video_Audio/html_multimedia-
+            and-embedding_video-and-audio-content_viper.ogg"
         type="audio/ogg" />
         </audio>
     </figure>
+    <!--This is how to display video file-->
+    <video controls width="500">
+        <source src="/Class_Notes/HTML/HTML_Video_Audio/html_multimedia-and-
+        embedding_video-and-audio-content_rabbit320.webm"
+    type="video/webm" />
+
+        <source src="/Class_Notes/HTML/HTML_Video_Audio/rabbit320.mp4"
+    type="video/mp4" />
+    </video>
+
 </body>
 </html>
