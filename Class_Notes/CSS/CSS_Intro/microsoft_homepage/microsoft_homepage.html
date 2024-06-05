@@ -14,9 +14,22 @@ Students will try to recreate the Microsoft landing page.
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <img src="./RE1Mu3b.png" alt="Microsoft Logo" class="microsoft_logo">
-        
+    <nav class="navbar">
+        <img class="microsoft_logo" src="./RE1Mu3b.png" alt="Microsoft Logo">
+        <img class="shopping_cart" src="./cart.svg" alt="Shopping Cart Icon">
     </nav>
+
+    <main>
+        <section class="image_section">
+            <img srcset="./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP2-859x540.avif 859w,
+                 ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP3-1083x600.avif 1083w,
+                 ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP4-1399x600.avif 1399w,
+                 ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif 1920w"
+            sizes="(min-width: 1399px) 1399px, 100vw"
+            src="Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif"
+            alt="Surface pro image"
+            class = "responsive_image">
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="microsoft-logo.png" alt="Microsoft Logo" class="logo">
+        <div class="cart-icon">🛒</div>
+    </nav>
+    <section class="image-section">
+        <img srcset="./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP2-859x540.avif 859w,
+                     ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP3-1083x600.avif 1083w,
+                     ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP4-1399x600.avif 1399w,
+                     ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif 1920w"
+             sizes="(min-width: 1399px) 1399px, 100vw"
+             src="./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif"
+             alt="Surface pro image" class="responsive-image">
+    </section>
+</body>
+</html>

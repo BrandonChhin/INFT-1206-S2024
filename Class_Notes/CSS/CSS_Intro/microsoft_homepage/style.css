@@ -1,10 +1,62 @@
 
-.microsoft_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 7px;
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+} */
+
+/* .microsoft_logo {
     width: 108px;
     height: 23px;
 
+} */
+
+/* .shopping_cart {
+    width: 16px;
+    height: 16px;
+} */
+
+ /* .Surface_Pro {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.microsoft_logo {
+    width: 108px;
+    height: 23px;
+}
+
+.shopping_cart {
+    width: 16px;
+    height: 16px;
+}
+
+.image_section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.responsive_image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
