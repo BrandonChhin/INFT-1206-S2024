@@ -131,13 +131,28 @@ This HTML document is assignment 2, Mozilla splash page
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="img_assets/firefox-logo400.png" alt="firefox logo">
+          <img
+            srcset="img_assets/firefox-logo120.png 120w, 
+                    img_assets/firefox-logo400.png 400w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="img_assets/firefox-logo400.png"
+            alt="firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="img_assets/mozilla-dinosaur400.png" alt="mozilla dinosaur">
+          <img
+            srcset="img_assets/mozilla-dinosaur120.png 120w, 
+                    img_assets/mozilla-dinosaur400.png 400w"
+            sizes="(max-width: 500px) 120px, 400px"
+            src="img_assets/mozilla-dinosaur400.png"
+            alt="mozilla dinosaur">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img src="img_assets/firefox-addons400.jpg" alt="firefox addons">
+          <img
+            srcset="img_assets/firefox-addons120.jpg 120w, 
+                    img_assets/firefox-addons400.jpg 400w"
+            sizes="(max-width: 500px) 120px, 400px" 
+            src="img_assets/firefox-addons400.jpg"
+            alt="firefox addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
           <img src="img_assets/mdn.svg" alt="mdn">
