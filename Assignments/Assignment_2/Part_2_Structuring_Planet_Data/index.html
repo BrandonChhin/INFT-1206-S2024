@@ -19,10 +19,10 @@ This HTML document is assignment 2, Structuring planet data
         <!--Caption-->
         <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
 
-        <!--Column Heads-->
+        <!--Column Heads/table head-->
         <thead>
             <tr>
-                <th>&nbsp;</th>
+                <td colspan="2">&nbsp;</td>
                 <th>Name</th>
                 <th>Mass (10<sup>24</sup>kg)</th>
                 <th>Diameter (km)</th>
@@ -35,6 +35,39 @@ This HTML document is assignment 2, Structuring planet data
                 <th>Notes</th>
             </tr>
         </thead>
+
+        <!--Table body-->
+        <tbody>
+            <tr>
+                <th rowspan="4" colspan="2">Terrestrial planets</th>
+                <th>Mercury</th>
+
+            </tr>
+            <tr>
+                <th>Venus</th>
+            </tr>
+            <tr>
+                <th>Earth</th>
+            </tr>
+            <tr>
+                <th>Mars</th>
+            </tr>
+            <tr>
+                <th rowspan="4">Jovian planets</th>
+                <th rowspan="2">Gas giants</th>
+                <th>Jupiter</th>
+            </tr>
+            <tr>
+                <th>Saturn</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Ice giants</th>
+                <th>Uranus</th>
+            </tr>
+            <tr>
+                <th>Neptune</th>
+            </tr>
+        </tbody>
     </table>
 
   </body>
