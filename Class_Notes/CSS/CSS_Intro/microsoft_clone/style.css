@@ -1,0 +1,40 @@
+nav {
+    border: solid blue;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+ul {
+    margin: 0;
+}
+
+.left-nav-ul * li:hover { 
+    text-decoration: underline;
+}
+
+.left-nav-ul {
+    border: solid red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.right-nav-ul {
+    border: solid red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#microsoft-logo {
+    width: auto;
+    height: 38px;
+}

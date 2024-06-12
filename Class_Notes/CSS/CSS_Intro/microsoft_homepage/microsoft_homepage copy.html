@@ -4,21 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Image Example</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style copy.css">
 </head>
 <body>
     <nav class="navbar">
-        <img src="microsoft-logo.png" alt="Microsoft Logo" class="logo">
-        <div class="cart-icon">🛒</div>
+        <div class="navbar-left">
+            <img src="RE1Mu3b.png" alt="Microsoft Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">Microsoft 365</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Copilot</a></li>
+                <li><a href="#">Windows</a></li>
+                <li><a href="#">Surface</a></li>
+                <li><a href="#">Xbox</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Small Business</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <a href="#">All Microsoft</a>
+            <a href="#"><img src="search.svg"></a>
+            <a href="#"><img src="cart.svg"></a>
+            <a href="#"><img src="person-circle.svg"></a>
+        </div>
     </nav>
-    <section class="image-section">
-        <img srcset="./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP2-859x540.avif 859w,
-                     ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP3-1083x600.avif 1083w,
-                     ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP4-1399x600.avif 1399w,
-                     ./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif 1920w"
-             sizes="(min-width: 1399px) 1399px, 100vw"
-             src="./Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif"
-             alt="Surface pro image" class="responsive-image">
-    </section>
+    <main>
+        <section>
+            <div class="container">
+                <img class="thumbnail" src="Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP5-1920x600.avif" alt="Surface Pro">
+                
+                <div class="centered">
+                    <span class="new_tag">New</span>
+                    <h1>Meet Surface Pro</h1>
+                    <div>
+                        This laptop's unrivalled flexibility and AI features like Recall and Cocreator, enable you to do more than you ever imagined.
+                    </div>
+                    <a class="preorder_btn">Pre-order now</a>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
 </body>
 </html>
