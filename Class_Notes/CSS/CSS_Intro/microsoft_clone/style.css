@@ -14,7 +14,7 @@ ul {
 }
 
 .left-nav-ul {
-    border: solid red;
+    /* border: solid red; */
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -25,16 +25,88 @@ ul {
 }
 
 .right-nav-ul {
-    border: solid red;
+    /* border: solid red; */
     list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-basis: 20%;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+    flex-basis: 25%;
 }
 
+.right-nav-ul li{
+    margin-right: 10px;
+}
 #microsoft-logo {
     width: auto;
-    height: 38px;
+    height: 30px;
+}
+
+.main-container {
+    border: 2px solid red;
+    height: 430px;
+    background-image: url("./images/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682_VP4-1399x600.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.highlight-container {
+    border: 2px solid red;
+    background-color: white;
+    height: 40%;
+    width: 35%;
+    margin: 50px;
+    padding: 35px;
+}
+
+.new-tag {
+    background-color: #ffb900;
+    color:black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.surface-description {
+    font-size: 14px;
+}
+
+.preorder-btn {
+    background-color: #0067b8;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 10px;
+}
+
+.meet-pro-title {
+    margin-bottom: 8px;
+}
+
+.options {
+    /* border: 2px solid blue; */
+    height: 125px;
+    display: flex;
+    padding: 0px 50px 0px 50px;
+
+}
+
+.options > * {
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options > div * {
+    margin: 5px ;
+
 }
