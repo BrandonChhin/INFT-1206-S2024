@@ -79,3 +79,7 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
     letter-spacing: 1px;
     word-spacing: 1px;
   }
+
+  section p {
+    text-indent: 20px;
+  }
