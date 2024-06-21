@@ -17,9 +17,14 @@ div {
     margin: auto;
     
     /* box styling */
-    border: 1px solid black;
+    border: 1px solid rgb(200, 0, 0);
     border-radius: 15px;
     background-color: red;
+    background-image: linear-gradient(to top right, rgba(0,0,0,0.2),
+                                                    rgba(0,0,0,0.2) 30%,
+                                                    rgba(0,0,0,0.2));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), 
+    inset -2px -2px 3px rgba(0,0,0,0.6), 2px 2px 5px black;
 
     /* Text size/styling - Each rem = 16px therefore 18px / 16px = 1.125rem */
     color: white;
@@ -28,5 +33,4 @@ div {
     align-items: center;
     justify-content: center;
     font-size: 1.125rem;
-
   }
