@@ -4,6 +4,7 @@ File: style.css
 Date: June 21, 2024
 This CSS document is assignment 3 part 3, Typesetting a community school homepage
 */
+
 /* General setup */
 
 * {
@@ -49,4 +50,20 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
   }
   
   /* WRITE YOUR CODE BELOW HERE */
-  
+  @font-face {
+    font-family: 'IBM_Serif';
+    src: url(./fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'PT_Serif';
+    src: url(./fonts/PT_Serif/PTSerif-Regular.ttf) format('truetype');
+  }
+  html {
+    font-family: 'IBM_Serif', serif;
+    font-size: 10px;
+  }
+  h1, h2 {
+    font-family: 'PT_Serif', sans-serif;
+    letter-spacing: 2px;
+  }
