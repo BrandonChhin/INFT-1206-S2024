@@ -112,8 +112,8 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
 
   a:active {
     color: transparent;
-    text-shadow: 0px 0px 1px #f00,
-                 0px 0px 2px #f00,
-                 0px 0px 3px black,
-                 0px 0px 4px black;
+    text-shadow: 0px 0px 1px rgb(89, 255, 0),
+                 0px 0px 2px rgb(89, 255, 0);
   }
+
+
