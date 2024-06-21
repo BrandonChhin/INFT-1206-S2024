@@ -50,6 +50,8 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  /* Custom fonts */
   @font-face {
     font-family: 'IBM_Serif';
     src: url(./fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf) format('truetype');
@@ -57,9 +59,12 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
 
   @font-face {
     font-family: 'PT_Serif';
-    src: url(./fonts/PT_Serif/PTSerif-Regular.ttf) format('truetype');
+    src: url(./fonts/PT_Serif/PTSerif-Bold.ttf) format('truetype');
   }
 
+
+
+/* Text styling */
   html {
     font-family: 'IBM_Serif', serif;
     font-size: 10px;
@@ -82,4 +87,33 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
 
   section p {
     text-indent: 20px;
+  }
+
+
+
+  /* Link styling */ 
+  a {
+    outline: none;
+  }
+
+  a[href*="http"] {
+    padding-right: 19px;
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 16px 16px;
+  }
+
+  a:link, a:visited {
+    color: #a66;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  a:active {
+    color: transparent;
+    text-shadow: 0px 0px 1px #f00,
+                 0px 0px 2px #f00,
+                 0px 0px 3px black,
+                 0px 0px 4px black;
   }
