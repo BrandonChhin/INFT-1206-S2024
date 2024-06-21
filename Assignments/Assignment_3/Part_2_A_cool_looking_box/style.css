@@ -10,7 +10,10 @@ html {
   
   /* Your CSS below here */
 
-.cool-box {
-    width: 200px;
-    border: 5px solid black
+div {
+    /* box size/position */
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid black;
   }
