@@ -64,7 +64,7 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
 
 
 
-/* Text styling */
+  /* Text styling */
   html {
     font-family: 'IBM_Serif', serif;
     font-size: 10px;
@@ -115,5 +115,24 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
     text-shadow: 0px 0px 1px rgb(89, 255, 0),
                  0px 0px 2px rgb(89, 255, 0);
   }
+
+
+  /* List styling*/
+  ul, ol {
+    margin: 25px 0;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ol {
+    list-style-type: lower-alpha;
+  }
+
+
+
+  /* nav menu styling*/
+
 
 
