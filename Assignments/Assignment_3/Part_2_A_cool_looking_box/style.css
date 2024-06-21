@@ -15,9 +15,14 @@ div {
     width: 250px;
     height: 200px;
     margin: auto;
+    
+    /* box styling */
     border: 1px solid black;
+    border-radius: 15px;
+    background-color: red;
 
     /* Text size/styling - Each rem = 16px therefore 18px / 16px = 1.125rem */
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
