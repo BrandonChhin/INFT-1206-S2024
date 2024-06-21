@@ -59,11 +59,23 @@ This CSS document is assignment 3 part 3, Typesetting a community school homepag
     font-family: 'PT_Serif';
     src: url(./fonts/PT_Serif/PTSerif-Regular.ttf) format('truetype');
   }
+
   html {
     font-family: 'IBM_Serif', serif;
     font-size: 10px;
   }
+
+  header {
+    text-align: center;
+  }
+  
   h1, h2 {
     font-family: 'PT_Serif', sans-serif;
     letter-spacing: 2px;
+  }
+
+  body {
+    line-height: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
   }
