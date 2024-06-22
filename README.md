@@ -10,6 +10,6 @@
 [Assignment 2 - Part 2](Assignments/Assignment_2/Part_2_Structuring_Planet_Data/index.html)<br>
 [Assignment 3 - Part 1](Assignments/Assignment_3/Part_1_Styling_biography_page/)
 [Assignment 3 - Part 2](Assignments/Assignment_3/Part_2_A_cool_looking_box/index.html)
-[Assignment 3 - Part 3](Assignments/Assignment_3/Part_3_Typesetting_community_school_page/index.html)
+[Assignment 3 - Part 3](Assignments/Assignment_3/Part_3_Typesetting_community_school_page/index.html)<br>
 [Assignment 4](Assignments/Assignment_4)<br>
 [Assignment 5](Assignments/Assignment_5)
