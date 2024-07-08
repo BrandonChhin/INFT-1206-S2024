@@ -1,0 +1,72 @@
+.sidepage-btns {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.num-btns {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.stretch-btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: padding 1s;
+}
+
+.stretch-btn:hover {
+  padding: 20px 50px 20px 50px;
+}
+
+
+.click-btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  transition: padding 1s;
+}
+
+.click-btn:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+
+.number-btns {
+  background-color: green;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: padding 0.15s, margin 0.15s;
+}
+
+.number-btns:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

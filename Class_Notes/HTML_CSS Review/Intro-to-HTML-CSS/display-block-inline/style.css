@@ -1,0 +1,109 @@
+  .name-box, .email-box {
+    display: block;
+    margin-bottom: 7px;
+  }
+
+
+  .text-box, .yes-btn, .no-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .text-box {
+    width: 200px;
+  }
+
+
+  .google-logo {
+    display: block;
+    width: 200px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+  }
+
+  .search-bar {
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+
+  }
+
+
+  .first-name-box, .last-name-box {
+    border: solid;
+    border-color: lightgrey;
+    border-width: 0.1px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    color:gray;
+    font-size: 14px;
+    width: 110px;
+  }
+
+  .email2-box {
+    margin-top: 10px;
+    display: block;
+    border: solid;
+    border-color: lightgrey;
+    border-width: 0.1px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    color:gray;
+    font-size: 14px;
+    width: 245px;
+  }
+
+  .sign-up-btn {
+    background-color: rgb(53, 132, 243);
+    margin-top: 10px;
+    display: block;
+    border: none;
+    border-width: 0.1px;
+    border-radius: 5px;
+    padding: 12px 10px 12px 10px;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 265px;
+  }
+
+
+  .request-ride-text {
+    display: inline-block;
+    font-family: arial;
+    font-size: 64px;
+    margin-top: 0;
+
+  }
+
+  .pickup-location-box, .pickup-destination-box {
+    border: none;
+    display: block;
+    font-size: 24px;
+    width: 551.438px;
+    margin-bottom: 60px;
+    padding-left: 30px;
+  }
+
+  .request-btn {
+    background-color: black;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  .schedule-btn {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 20px 25px 20px 25px;
+    font-size: 24px;
+  }

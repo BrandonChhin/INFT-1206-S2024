@@ -1,0 +1,19 @@
+  h1 {
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 18px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .touchless-tag {
+    text-decoration: underline;
+  }

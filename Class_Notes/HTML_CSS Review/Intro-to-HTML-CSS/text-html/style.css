@@ -1,0 +1,234 @@
+  /* Selector & CSS specificity*/
+  /* 
+  E.g. 
+    p {} has priority over .video-title.
+  */
+  p {
+    /* font-family:Arial; */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .video-title {
+    font-family:Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+  }
+
+  .video-stats {
+    font-family:Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+  }
+
+  .video-author {
+    font-family:Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 20px;
+  }
+
+
+.video-desc {
+    font-family:Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 20px;
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+  
+
+
+.apple-text {
+  font-family:Arial;
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color:white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Font exercises below*/
+
+/* 5a. Tahhoma font */
+  .tahoma-font {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Tahoma;
+  }
+
+
+/* 5b. Verdana font */
+  .course-title {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .course-tag {
+    font-family: Verdana;
+    margin-bottom: 20px;
+  }
+    
+  .course-desc {
+    font-family: Verdana;
+    width: 280px;
+  }
+    
+  .get-started-btn {
+    font-family: Verdana;
+    background-color: rgb(5, 119, 5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+
+  /* 5c. font = Arial*/
+  .deal-banner-text {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sale-date-text {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+    color: orangered;
+  }
+
+
+
+  /* 5d. font = arial2 */
+  .apple1-business-text {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .apple1-work-text {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial;
+  }
+
+  .apple1-learn-text {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial;
+    color: rgb(0, 106, 255);
+  }
+
+  .learn-more-link {
+    cursor: pointer;
+  }
+  
+  .learn-more-link:hover {
+    text-decoration: underline;
+  }
+
+  /* 5e. Apple Macbook*/
+  .new-tag {
+    font-family:Arial;
+    color:rgb(245, 99, 0);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .product-name {
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .product-tag {
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .product-price {
+    font-family:Arial;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .buy-btn-text {
+    text-align: center;
+  }
+
+  .buy-btn {
+    font-family:Arial;
+    background-color: rgb(0, 113, 227);
+    color: white;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+
+  /* 5f. Stocks*/
+  .stock-new-price {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 32px;
+  }
+
+  .us-currency {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+  }
+
+  .stock-new-stats {
+    margin-top: 8px;
+    color: rgb(24, 128, 56);
+
+  }
+
+  .stock-old-stats {
+    margin-top: 8px;
+    color: rgb(100, 100, 100);
+
+  }
+
+  .stock-old-price {
+    color: rgb(235, 39, 39);
+  }
