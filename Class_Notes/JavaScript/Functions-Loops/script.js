@@ -47,7 +47,78 @@
 // We want to create a function that will take 2 numbers as  input and return the sum of those numbers.
 
 // () --> An expression commonly used when executing a function of method
-function sumOfTwoNumbers() {
-  // Body of the function
+// function sumOfTwoNumbers() {
+//   // Body of the function
+
+// }
+
+
+// Class Function exercises
+
+// 1. Write a function that will display all the numbers from 1 to 999.
+// function count999() {
+//   let i = 1;
+//   while (i <= 998) {
+//     i += 1;
+//     console.log(i);
+//   }
+// }
+// count999();
+
+
+// 2. Write a function that will display all the even numbers from 1 to 999.
+// function count999() {
+//     let i = 1;
+//     while (i <= 998) {
+//       i += 1;
+//       if (i % 2 === 0) {
+//         console.log(i);
+//       }
+//     }
+//   }
+//   count999();
+
+
+// 3. Write a function that will display all the numbers divisible by 7 from 1 to 999.
+// function count999() {
+//     let i = 1;
+//     while (i <= 998) {
+//       i += 1;
+//       if (i % 7 === 0) {
+//         console.log(i);
+//       }
+//     }
+//   }
+//   count999();
+
+
+// 4. Write a function that will iterate through an object and display all of its keys and values
+// let obj = {brand1: "Porsche", brand2: "Mercedes", brand3: "BMW"};
+// console.log(Object.entries(obj));
+
+
+
+// 5. Write a function that will iterate through an array and display all of its elements.
+// let array = [1,2,3,4,5,6,7,8,9]
+// console.log(array.toString())
+
+
+// 6. Write a function that will iterate though a numbers array and add 1 to each of its values.
+let array1 = [1,2,3,4,5,6,7,8,9]
+
+function addOneArray() {
+  arrayLength = array1.length;
   
+  for (let i = 0; i <= arrayLength - 1; i++) {
+    array1[i] += 1;
+  }
+  console.log(array1);
 }
+
+addOneArray(array1)
+
+
+
+
+// 7. Write a function that will initiate a prompt where you 
+// write the name of the month and it will return (log) which season the month is in
