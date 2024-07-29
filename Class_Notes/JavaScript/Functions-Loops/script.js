@@ -104,21 +104,37 @@
 
 
 // 6. Write a function that will iterate though a numbers array and add 1 to each of its values.
-let array1 = [1,2,3,4,5,6,7,8,9]
+// let array1 = [1,2,3,4,5,6,7,8,9]
 
-function addOneArray() {
-  arrayLength = array1.length;
+// function addOneArray() {
+//   arrayLength = array1.length;
   
-  for (let i = 0; i <= arrayLength - 1; i++) {
-    array1[i] += 1;
-  }
-  console.log(array1);
-}
+//   for (let i = 0; i <= arrayLength - 1; i++) {
+//     array1[i] += 1;
+//   }
+//   console.log(array1);
+// }
 
-addOneArray(array1)
+// addOneArray(array1)
 
 
 
 
 // 7. Write a function that will initiate a prompt where you 
 // write the name of the month and it will return (log) which season the month is in
+let monthInput = prompt('Enter a month name:')
+
+function monthSeasonChecker (monthInput) {
+  
+  if (monthInput == 'December') {
+    console.log(monthInput);
+  }
+
+}
+
+// if (monthInput != null) {
+  
+//   // console.log(monthInput);
+// }
+
+monthSeasonChecker()
