@@ -1,4 +1,4 @@
-// Variables and Functions
+// 1. Variables and Functions
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
@@ -9,24 +9,27 @@ function randomValueFromArray(array){
 }
 
 
-// Raw text strings
-const storyText = (`It was 94 fahrenheit outside, so ${xItem} went for a walk. 
-  When they got to ${yItem}, they stared in horror for a few moments, then ${zItem}. 
-  Bob saw the whole thing, but was not surprised — ${xItem} weighs 300 pounds, and it was a hot day.`);
+// 2. Raw text strings
+const storyText = ("It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.");
 
 const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const insertY = ["the soup kitchen", "Disneyland", "the White House"];
 const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
 
 
-// Event listener and function
+// 3. Event listener and function
 randomize.addEventListener('click', result);
 
 function result() {
-  newStory = storyText;
+  let newStory = storyText;
+
   const xItem = randomValueFromArray(insertX);
   const yItem = randomValueFromArray(insertY);
   const zItem = randomValueFromArray(insertZ);
+
+  newStory = newStory.replaceall(":insertx:", xItem);
+  newStory = newStory.replace(":inserty:", yItem);
+  newStory = newStory.replace(":insertz:", zItem);
 
   if(customName.value !== '') {
     const name = customName.value;
