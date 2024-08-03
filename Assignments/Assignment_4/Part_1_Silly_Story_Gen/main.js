@@ -42,3 +42,5 @@ function result() {
   story.textContent = ;
   story.style.visibility = 'visible';
 }
+
+// 4. Inside the first if block - continue here
