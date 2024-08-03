@@ -37,13 +37,12 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
-
+    const weight = `${Math.round(300 / 14)} stone`;
+    const temperature =  `${Math.round((94 - 32) * (5/9))} centigrade`;
+    newStory = newStory.replace("300 pounds", weight);
+    newStory = newStory.replace("fahrenheit", temperature);
   }
 
   story.textContent = ;
   story.style.visibility = 'visible';
 }
-
-// 4. Inside the first if block - continue here
