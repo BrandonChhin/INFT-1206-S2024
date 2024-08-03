@@ -43,6 +43,6 @@ function result() {
     newStory = newStory.replace("fahrenheit", temperature);
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
