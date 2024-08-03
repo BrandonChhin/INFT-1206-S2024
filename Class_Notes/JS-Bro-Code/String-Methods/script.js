@@ -82,6 +82,6 @@ let userName = "ArticAC";
 
 
 // padEnd method
-let phoneNumber = "123-456-7890";
-phoneNumber = phoneNumber.padEnd(20, "0")
-console.log(phoneNumber);
+// let phoneNumber = "123-456-7890";
+// phoneNumber = phoneNumber.padEnd(20, "0")
+// console.log(phoneNumber);
