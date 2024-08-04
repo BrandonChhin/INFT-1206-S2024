@@ -22,6 +22,10 @@ for(i = 0; i < imageFiles.length; i++){
   newImage.setAttribute('src', `images/${i}`);
   newImage.setAttribute('alt', altTexts[i]);
   thumbBar.appendChild(newImage);
+  newImage.addEventListener('click', clickEvent => {
+    displayedImage.src = clickEvent.target.src;
+    displayedImage.alt = clickEvent.target.alt;
+  });
 }
 
 
