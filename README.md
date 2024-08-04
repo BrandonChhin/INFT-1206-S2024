@@ -13,4 +13,5 @@
 [Assignment 3 - Part 3](Assignments/Assignment_3/Part_3_Typesetting_community_school_page/index.html)
 [Assignment 3 - Part 4](Assignments/Assignment_3/Part_4_Fundamental_layout/index.html)<br>
 [Assignment 4 - Part 1](./Assignments/Assignment_4/Part_1_Silly_Story_Gen/index.html)<br>
+[Assignment 4 - Part 2](./Assignments/Assignment_4/Part_2_Image_gallary/gallery-start/index.html)<br>
 [Assignment 5](Assignments/Assignment_5)
