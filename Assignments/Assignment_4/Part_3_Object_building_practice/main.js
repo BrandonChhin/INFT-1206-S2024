@@ -18,6 +18,7 @@ function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
 
+// initalizes ball properties
 class Ball {
   constructor(x, y, velX, velY, color, size) {
     this.x = x;
@@ -28,6 +29,7 @@ class Ball {
     this.size = size;
   }
 
+  // draws the ball
   draw() {
     ctx.beginPath();
     ctx.fillStyle = this.color;
@@ -35,6 +37,7 @@ class Ball {
     ctx.fill();
   }
 
+  // Updating the ball's data
   update() {
     if ((this.x + this.size) >= width) {
       this.velX = -(this.velX);
@@ -63,6 +66,7 @@ class Ball {
 // testBall.color;
 // testBall.draw();
 
+// animating the ball
 const balls = [];
 
 while (balls.length < 25) {
@@ -81,6 +85,7 @@ while (balls.length < 25) {
   balls.push(ball);
 }
 
+// animation loop function
 function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
   ctx.fillRect(0, 0, width, height);
@@ -92,3 +97,5 @@ function loop() {
 
   requestAnimationFrame(loop);
 }
+
+loop();
