@@ -69,11 +69,11 @@ class EvilBall extends Shape{
     }
 
     if (this.y + this.size >= height) {
-      this.x -= this.size;
+      this.y -= this.size;
     }
 
     if (this.y - this.size <= 0) {
-      this.x += this.size;
+      this.y += this.size;
     }
 
   }
