@@ -27,6 +27,13 @@ class Shape {
   }
 }
 
+class EvilBall extends Shape{
+  constructor(x, y){
+    super(x, y, 20, 20);
+    this.color = white;
+    this.size = 10;
+  }
+}
 class Ball extends Shape {
   constructor(x, y, velX, velY, color, size) {
     super(x, y, velX, velY);
@@ -38,6 +45,7 @@ class Ball extends Shape {
     this.size = size;
     this.exists = true;
   }
+
 
   draw() {
     ctx.beginPath();
