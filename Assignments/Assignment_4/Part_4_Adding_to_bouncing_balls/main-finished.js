@@ -1,6 +1,7 @@
 // set up canvas
 
 let count = 0;
+const p = document.querySelector('p');
 
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
@@ -89,7 +90,7 @@ class EvilBall extends Shape{
         if (distance < this.size + ball.size) {
           ball.exists = false;
           count--;
-          
+          p.textContent = `Ball count: ${count}`;
         }
       }
     }
@@ -170,6 +171,8 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+  count++;
+  p.textContent = `Ball count: ${count}`;
 }
 
 // evilBall instance
