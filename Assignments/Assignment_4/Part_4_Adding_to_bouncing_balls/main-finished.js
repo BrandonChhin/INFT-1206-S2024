@@ -30,7 +30,7 @@ class Shape {
   }
 }
 
-class EvilBall extends Shape{
+class EvilCircle extends Shape{
   constructor(x, y){
     super(x, y, 20, 20);
     this.color = "white";
@@ -175,8 +175,8 @@ while (balls.length < 25) {
   p.textContent = `Ball count: ${count}`;
 }
 
-// evilBall instance
-const evilBall = new EvilBall(random(0, width), random(0,height));
+// evilCircle instance
+const evilBall = new EvilCircle(random(0, width), random(0, height));
 
 function loop() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
