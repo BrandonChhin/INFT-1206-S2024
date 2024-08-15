@@ -165,7 +165,7 @@ img, audio {
   display: block;
   margin: 0 auto;
 }
-
+      
 audio {
   width: 500px;
 }
@@ -219,16 +219,21 @@ audio {
   line-height: 32px;
 }
 
-.comment-form input[type="submit"], .show-hide {
+.comment-form .submit, .show-hide {
   background: #333;
   border: 0;
   color: white;
 }
 
-.comment-form input[type="submit"] {
+.comment-form .submit {
   width: 30%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.6rem;
 }
 
 .comment-container {
