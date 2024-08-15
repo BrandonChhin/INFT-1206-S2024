@@ -51,7 +51,7 @@ p, li, table {
 
 /* || header layout */
 
-nav[class="navbar"], article, footer, .secondary {
+nav, article, footer, .secondary {
   background-color: rgb(255, 255, 255);
 }
 
@@ -63,7 +63,7 @@ article {
   margin-right: 10px;
 }
 
-nav[class="navbar"] {
+nav {
   height: 50px;
   background-color: ff80ff;
   display: flex;
@@ -71,20 +71,20 @@ nav[class="navbar"] {
   margin-bottom: 10px;
 }
 
-nav[class="navbar"] ul {
+nav ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-nav[class="navbar"] li {
+nav li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-nav[class="navbar"] a {
+nav a {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
@@ -92,7 +92,7 @@ nav[class="navbar"] a {
   color: black;
 }
 
-nav[class="navbar"] .search {
+nav .search {
   flex: 1;
   display: flex;
   align-items: center;
@@ -227,13 +227,13 @@ audio {
 
 .comment-form .submit {
   width: 30%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   display: block;
   margin: 0 auto;
   cursor: pointer;
   width: 150px;
   font-size: 1.6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .comment-container {
